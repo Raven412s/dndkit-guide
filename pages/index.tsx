@@ -379,7 +379,7 @@ export default function Home() {
         </Button>
       </div>
       <div className="mt-10">
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid grid-cols-4 gap-6">
           <DndContext
             sensors={sensors}
             collisionDetection={closestCorners}
